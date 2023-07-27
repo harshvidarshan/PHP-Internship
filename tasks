@@ -1,0 +1,47 @@
+What is HTML ?
+What is CSS ?
+What is bootstrap?
+What is Javascript?
+What is Jquery ?
+What is PHP ?
+What is Static website and Dynamic website ?
+
+
+html
+input type="file" in which form attribute is to be used?
+<form method="post" enctype="multipart/form-data">
+  <div>
+    <label for="file">Choose file to upload</label>
+    <input type="file" id="file" name="file" multiple />
+  </div>
+  <div>
+    <button>Submit</button>
+  </div>
+</form>
+enctype="multipart/form-data" final ans
+
+javascript
+for page reload what is used
+not reloading page
+<form id="formId">
+   <input type="text" value=="value"/>
+   <input type="submit"/>
+</form>
+
+//Get form element
+var form=document.getElementById("formId");
+function submitForm(event){
+
+   //Preventing page refresh
+   event.preventDefault();
+}
+
+//Calling a function during form submission.
+form.addEventListener('submit', submitForm);
+
+ event.preventDefault(); final ans
+
+difference between for and for each loop
+
+
+
